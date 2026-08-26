@@ -1,0 +1,17 @@
+{
+  "protocol": "FIELD-PUBLICATION-RECEIPT/1",
+  "fieldAddress": "sha256:72683d52767df62938a03effc8b7b6f2d7bb73c77ccb9b426608c37e33075cd1",
+  "actAddress": "sha256:ad5d9730ad075f322ca573e43d95d39ea3b22525af1e27d73f4bc127147c942c",
+  "resultAddress": "sha256:81831bb5764a72b235cd27fb6e3c71f189c0889c881ed7ce4bf78fd475e4b0da",
+  "publicUrl": "https://acidfang.github.io/facts-matter-yours/",
+  "repository": "https://github.com/Acidfang/facts-matter-yours",
+  "sourceCommit": "5a532ce",
+  "verification": {
+    "titlePresent": true,
+    "actAddressPresent": true,
+    "addressRoundTrip": true,
+    "derivedFindingPresent": true
+  },
+  "verifiedAt": "2026-08-27T08:49:00+12:00",
+  "address": "sha256:98bb7db182c86e219ed694400f6ae3881955b22b885a7fde48d33ccc52ea0012"
+}

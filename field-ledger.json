@@ -1,0 +1,177 @@
+{
+  "protocol": "ADDRESSABLE-FIELD/1",
+  "createdAt": "2026-08-27T00:00:00+12:00",
+  "act": {
+    "series": "FACTS MATTER. YOURS.",
+    "selectedObject": "A Church of Jesus Christ of Latter-day Saints house-of-worship occurrence under the bounded non-reciprocal-imposition condition",
+    "speakingGrain": "The Church’s published scriptures, published repentance teaching, observable institutional record, and the affected site record",
+    "operation": "FILTER → ISOLATE → RECONSTRUCT → ADDRESS",
+    "boundary": "No divine voice, no inferred private mental state, no blanket verdict, no detached conclusion",
+    "requestedOutcome": "A neutral public article, addressable field, recorded act, and ledger",
+    "address": "sha256:ad5d9730ad075f322ca573e43d95d39ea3b22525af1e27d73f4bc127147c942c"
+  },
+  "nodes": [
+    {
+      "slug": "condition",
+      "title": "The bounded condition",
+      "classification": "SELECTED",
+      "statement": "A church institution establishes or maintains a house of worship after directly affected people have refused the specific imposition, and the institution has not resolved the harm through genuine consent, departure, or repair.",
+      "parents": [],
+      "sources": [],
+      "remainder": "For any named site, establish the affected parties, direct effects, exact refusal, available alternatives, institutional knowledge, continuation, and repair.",
+      "address": "sha256:e4d3eb1eee33245d2ab9356cbef2f52e3207875ff199910b7befbcdd32e37169"
+    },
+    {
+      "slug": "grain",
+      "title": "The speaking grain",
+      "classification": "DERIVED",
+      "statement": "The speaker is the retained religious and institutional grain: published Church scripture, published Church teaching, and observable Church acts. This record does not speak as God or infer divine intent.",
+      "parents": [],
+      "sources": [
+        {
+          "label": "3 Nephi 14:12 — official Church scripture",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/14?id=p12&lang=eng"
+        },
+        {
+          "label": "Doctrine and Covenants 58:42–43",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?id=p42-p43&lang=eng"
+        },
+        {
+          "label": "Church Gospel Topics — Repentance",
+          "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/repentance?lang=eng"
+        }
+      ],
+      "remainder": "None at this boundary.",
+      "address": "sha256:0c54f4622a9127452ef706be7edbcc6d5d5524c1068b553a6e25369129b677e1"
+    },
+    {
+      "slug": "root",
+      "title": "Reciprocity root",
+      "classification": "DERIVED",
+      "statement": "The Church’s published scripture directs a person to do to others what that person would have others do to them and identifies that rule with the law and the prophets.",
+      "parents": [],
+      "sources": [
+        {
+          "label": "3 Nephi 14:12 — official Church scripture",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/14?id=p12&lang=eng"
+        }
+      ],
+      "remainder": "Application to a particular land-use occurrence requires the complete factual record.",
+      "address": "sha256:8d9047e3e209f1ac8894b7f0ea4ca7fe0d6c3fb377b817532b65e6b7dc01c085"
+    },
+    {
+      "slug": "repentance",
+      "title": "Observable repentance test",
+      "classification": "DERIVED",
+      "statement": "Within the Church’s published grain, repentance requires confession and forsaking; its published teaching also requires repair of hurt or damage where possible.",
+      "parents": [],
+      "sources": [
+        {
+          "label": "Doctrine and Covenants 58:42–43",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?id=p42-p43&lang=eng"
+        },
+        {
+          "label": "Church Gospel Topics — Repentance",
+          "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/repentance?lang=eng"
+        }
+      ],
+      "remainder": "A public record can test observable cessation and repair, not private belief or divine forgiveness.",
+      "address": "sha256:ccbcb80760955e0ac5cd7c985095c991d255257064d22833ee670edb4dca3a32"
+    },
+    {
+      "slug": "institutional-act",
+      "title": "Institutional site act",
+      "classification": "SELECTED",
+      "statement": "The relevant act includes acquisition, design, application, negotiation, construction, maintenance, and the directly produced effects at the selected site.",
+      "parents": [],
+      "sources": [],
+      "remainder": "Resolve each act and actor from the site record; do not collapse the institution into every member.",
+      "address": "sha256:c8dcd775b373634aa265a6e0ff5bac3b1b416624c97bfd9a7736f2f0cba0ab18"
+    },
+    {
+      "slug": "finding",
+      "title": "Conditional theological finding",
+      "classification": "DERIVED",
+      "statement": "If the Church knowingly continues a specific non-reciprocal imposition on directly affected people and neither forsakes nor repairs the established wrong, the continuing church occurrence is the continuing breach. Within the Church’s own classification, it is a sin carried on in the name of the religious grain the institution claims to obey.",
+      "parents": [
+        "sha256:e4d3eb1eee33245d2ab9356cbef2f52e3207875ff199910b7befbcdd32e37169",
+        "sha256:8d9047e3e209f1ac8894b7f0ea4ca7fe0d6c3fb377b817532b65e6b7dc01c085",
+        "sha256:ccbcb80760955e0ac5cd7c985095c991d255257064d22833ee670edb4dca3a32",
+        "sha256:c8dcd775b373634aa265a6e0ff5bac3b1b416624c97bfd9a7736f2f0cba0ab18"
+      ],
+      "sources": [
+        {
+          "label": "3 Nephi 14:12 — official Church scripture",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/14?id=p12&lang=eng"
+        },
+        {
+          "label": "Doctrine and Covenants 58:42–43",
+          "url": "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/58?id=p42-p43&lang=eng"
+        },
+        {
+          "label": "Church Gospel Topics — Repentance",
+          "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/repentance?lang=eng"
+        }
+      ],
+      "remainder": "The conclusion attaches only after every factual condition is established for the named occurrence.",
+      "address": "sha256:81831bb5764a72b235cd27fb6e3c71f189c0889c881ed7ce4bf78fd475e4b0da"
+    },
+    {
+      "slug": "fairview",
+      "title": "Fairview public state",
+      "classification": "DERIVED",
+      "statement": "The public records establish opposition, mediation, changes to the proposal, Town Council approval, construction, and continued disagreement.",
+      "parents": [
+        "sha256:c8dcd775b373634aa265a6e0ff5bac3b1b416624c97bfd9a7736f2f0cba0ab18"
+      ],
+      "sources": [
+        {
+          "label": "Church Fairview Texas Temple information",
+          "url": "https://www.churchofjesuschrist.org/initiative/mckinney-texas-information?lang=eng"
+        },
+        {
+          "label": "Town of Fairview public record",
+          "url": "https://fairviewtexas.org/Documents/Fairview-Town-News---December-2024.pdf"
+        }
+      ],
+      "remainder": "The reviewed records do not alone establish unresolved non-reciprocal imposition after complete comparison of effects, affected parties, authority, alternatives, consent, and repair.",
+      "address": "sha256:7c7940989ab145fa8447b28c61921a33152be74d44ba7f06013ae07f950fdb71"
+    },
+    {
+      "slug": "fairview-verdict",
+      "title": "Fairview verdict",
+      "classification": "UNRESOLVED",
+      "statement": "The conditional theological finding cannot yet be attached to Fairview as a complete verdict from the reviewed public sources.",
+      "parents": [
+        "sha256:81831bb5764a72b235cd27fb6e3c71f189c0889c881ed7ce4bf78fd475e4b0da",
+        "sha256:7c7940989ab145fa8447b28c61921a33152be74d44ba7f06013ae07f950fdb71"
+      ],
+      "sources": [
+        {
+          "label": "Church Fairview Texas Temple information",
+          "url": "https://www.churchofjesuschrist.org/initiative/mckinney-texas-information?lang=eng"
+        },
+        {
+          "label": "Town of Fairview public record",
+          "url": "https://fairviewtexas.org/Documents/Fairview-Town-News---December-2024.pdf"
+        }
+      ],
+      "remainder": "FIRST_MISSING_REFERENCE: a complete, reconciled site-level evidence record for direct effects, affected-party boundary, exact refusal, reciprocal alternatives, institutional knowledge, and repair after the mediated approval.",
+      "address": "sha256:4c9e973f48da7554ac6913ea3a6b9df1286110b66c62c5345eb3807d7183b015"
+    }
+  ],
+  "artifactHashes": {
+    "index.html": "sha256:9fabfec4485a3c109ed556b41e1f7b8f94498a8c9fab6da688b8c41667f3f8ca",
+    "styles.css": "sha256:1e8d27c4391c08221d454e6e952110d15107b39e8048b14018e575beaab8b601",
+    "app.js": "sha256:c99d07f118abb52b57c698b0e4450d15dc67d74216f630e0e0be5d269d0891d1",
+    "article.md": "sha256:61c67ecf5f140ac6abf7ae571130f230417548e61cac5bd1af71b64ce3121cf6"
+  },
+  "fieldAddress": "sha256:72683d52767df62938a03effc8b7b6f2d7bb73c77ccb9b426608c37e33075cd1",
+  "resultAddress": "sha256:81831bb5764a72b235cd27fb6e3c71f189c0889c881ed7ce4bf78fd475e4b0da",
+  "closure": {
+    "article": "COMPLETE",
+    "publicCaseVerdict": "UNRESOLVED",
+    "mutation": "AUTHORIZED FILE PUBLICATION",
+    "firstMissingReference": "FIRST_MISSING_REFERENCE: a complete, reconciled site-level evidence record for direct effects, affected-party boundary, exact refusal, reciprocal alternatives, institutional knowledge, and repair after the mediated approval."
+  }
+}
